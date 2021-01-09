@@ -43,7 +43,6 @@ public class WinTest {
         };
         assertThat(Win.check(board), is(false));
     }
-
     @Test
     public void whenNotWinL() {
         int[][] board = {
